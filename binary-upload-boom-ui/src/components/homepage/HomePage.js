@@ -33,9 +33,10 @@ export const HomePage = () => {
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
+        backgroundColor: '#6F1E51', 
       }}
     >
-      <ImageList cols={5} rowHeight={300}>
+      <ImageList cols={2} rowHeight={500}>
         <Backdrop
           sx={{color: '#fff', zIndex: theme => theme.zIndex.drawer + 1}}
           open={loading}
